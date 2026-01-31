@@ -2,6 +2,15 @@
 
 Determine if value `c` can be obtained from `(a, b)` by repeatedly adding one to the other.
 
+## Project Structure
+
+```
+src/
+├── math-solution.ts   # Mathematical O(1) solution (Calkin-Wilf theorem)
+├── tree-search.ts     # Tree traversal algorithm
+└── test.ts            # Test suite comparing both algorithms
+```
+
 ## Usage
 
 ### Math Solution (fast)
@@ -16,7 +25,7 @@ npm start -- 4 6 20     # NO
 npm start -- 1 2 12345678901234567890123456789  # YES (handles huge numbers)
 ```
 
-### Tree Search 
+### Tree Search (BFS traversal)
 
 ```bash
 npm run tree-search -- <a> <b> <c>
