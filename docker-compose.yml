@@ -1,0 +1,12 @@
+services:
+  math-solution:
+    build: .
+    entrypoint: ["npm", "start", "--"]
+
+  tree-search:
+    build: .
+    entrypoint: ["npm", "run", "tree-search", "--"]
+
+  test:
+    build: .
+    entrypoint: ["npm", "test"]

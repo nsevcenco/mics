@@ -1,0 +1,23 @@
+{
+  "name": "number-reach-solution",
+  "version": "1.0.0",
+  "description": "Solution for the number reach problem - determine if c can be obtained by adding a to b or b to a",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/math-solution.ts",
+    "tree-search": "ts-node src/tree-search.ts",
+    "test": "ts-node src/test.ts"
+  },
+  "keywords": [
+    "algorithm",
+    "bigint",
+    "typescript"
+  ],
+  "author": "Nikolay Shevchenko",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^4.9.5"
+  }
+}
