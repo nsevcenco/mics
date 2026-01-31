@@ -16,7 +16,7 @@ npm start -- 4 6 20     # NO
 npm start -- 1 2 12345678901234567890123456789  # YES (handles huge numbers)
 ```
 
-### Tree Search (BFS traversal)
+### Tree Search 
 
 ```bash
 npm run tree-search -- <a> <b> <c>
