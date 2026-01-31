@@ -1,4 +1,4 @@
-# Number Reach Solution
+# Задача
 
 Determine if value `c` can be obtained from `(a, b)` by repeatedly adding one to the other.
 
